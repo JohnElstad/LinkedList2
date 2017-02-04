@@ -9,7 +9,7 @@
 #include <iterator>
 #include <iomanip>
 
-#include "student.h"
+#include "Student.h"
 
 #ifndef NODE_H
 #define NODE_H
@@ -24,8 +24,8 @@ class Node{//has a student and a pointer to the next Node
 		Student* getStudent();//returns student
 				
 	private:
-		Student* student;
-		Node* nextNode;
+		Student* student= NULL;
+		Node* nextNode= NULL;
 	
 };
 
